@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist/portfolio-web-base",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "emulators": {}
+}
